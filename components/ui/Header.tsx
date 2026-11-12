@@ -37,9 +37,6 @@ export const Header: React.FC = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-[#131313]/90 backdrop-blur-md border-b border-white/10 transition-all duration-300">
-      <div className="bg-white text-black text-center px-3 py-1.5 text-[10px] font-mono font-bold uppercase tracking-wide" role="note">
-        Design preview · Example content · Orders and accounts unavailable
-      </div>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-8 h-20 flex items-center justify-between">
         {/* Brand Logo in Bodoni Moda */}
         <Link href="/" className="flex items-center gap-3 group">
