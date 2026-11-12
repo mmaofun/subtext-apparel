@@ -30,7 +30,7 @@ button, input, textarea, select {
   font-family: 'JetBrains Mono', monospace;
 }
 
-/* Custom Stitch Scrollbar */
+/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 4px;
 }

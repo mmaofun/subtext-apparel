@@ -104,7 +104,7 @@ export default function ShopPage() {
         ))}
       </div>
 
-      {/* Filter Bar (Stitch Refined Brutalism Style) */}
+      {/* Filter bar */}
       <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 border-b border-white/10 pb-6 mb-12 text-xs font-mono">
         {/* Psychological Theme Buttons */}
         <div className="flex flex-wrap items-center gap-2">
@@ -159,7 +159,7 @@ export default function ShopPage() {
         </div>
       </div>
 
-      {/* Product Grid (Stitch 0px Brutalist Cards) */}
+      {/* Product grid */}
       <div
         className={`grid gap-8 ${
           gridColumns === 2

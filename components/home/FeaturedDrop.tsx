@@ -26,7 +26,7 @@ export const FeaturedDrop: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
             <span className="text-xs font-mono text-accent uppercase tracking-widest block">
-              // AUTONOMOUS ARCHIVE
+              // THE ARCHIVE
             </span>
             <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-white uppercase mt-2">
               CURATED HEAVYWEIGHT CAPSULE
@@ -70,7 +70,7 @@ export const FeaturedDrop: React.FC = () => {
                   </button>
                 </div>
 
-                {/* Hoodie Visual Area with Photorealistic AI Mockup */}
+                {/* Product image */}
                 <Link
                   href={`/product/${prod.slug}`}
                   className="w-full h-72 sm:h-80 flex items-center justify-center my-4 relative overflow-hidden bg-[#0a0a0a]"

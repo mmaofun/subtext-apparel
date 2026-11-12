@@ -186,7 +186,7 @@ export const HeroSection: React.FC = () => {
         </div>
       </div>
 
-      {/* Bottom Ticker / Scroll Prompt */}
+      {/* Bottom ticker and scroll indicator */}
       <div className="border-t border-white/10 pt-4 flex flex-col sm:flex-row items-center justify-between text-[11px] font-mono text-muted gap-2">
         <div className="flex items-center gap-6">
           <span>WEIGHT: 1.45 KG / PIECE</span>
